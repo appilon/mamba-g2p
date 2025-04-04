@@ -1,0 +1,7 @@
+torch
+numpy
+tqdm
+datasets
+g2p_en
+mamba-ssm
+causal-conv1d 
