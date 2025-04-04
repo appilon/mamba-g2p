@@ -1,4 +1,4 @@
-# Mamba-G2P-Vibe
+# Mamba-G2P-Vibe (Mambo No. 5)
 
 This project is an experiment in "vibe coding" - exploring the implementation of a Grapheme-to-Phoneme (G2P) conversion system using the Mamba sequence model architecture. The entire development process, from initial setup to training and inference, was conducted collaboratively with the Gemini 2.5 Pro experimental model (gemini-2.5-pro-exp-03-25) within the Cursor IDE.
 
@@ -47,21 +47,24 @@ The human developer guided the process, set high-level goals, identified issues 
 
 ## Setup
 
-1.  **Clone the repository:**
-    ```bash
-    git clone <your-repo-url>
-    cd <your-repo-name>
-    ```
-2.  **Create a virtual environment (recommended):**
-    ```bash
-    python -m venv .venv
-    source .venv/bin/activate # Linux/macOS
-    # .venv\Scripts\activate # Windows
-    ```
-3.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
+To set up this project on your local machine:
+
+1. Clone the repository
+   ```
+   git clone https://github.com/appilon/mamba-g2p.git
+   cd mamba-g2p
+   ```
+
+2. Create a virtual environment (recommended)
+   ```
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+   ```
+
+3. Install dependencies
+   ```
+   pip install -r requirements.txt
+   ```
     *Note: `mamba-ssm` requires PyTorch and CUDA development tools to be installed correctly. Follow instructions on the official `mamba-ssm` repository if you encounter installation issues.* 
     *Note: `g2p-en` may download NLTK data on first use.*
 
